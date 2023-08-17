@@ -1,0 +1,61 @@
+@import "../../../assets/styles/vars";
+.Tabs {
+  position: relative;
+  width: 100%;
+
+  padding: 3rem;
+
+  overflow: hidden;
+
+  &__inner {
+    display: flex;
+    min-width: 100%;
+    height: 31.2rem;
+    gap: 3rem;
+
+    transition: all .3s linear;
+  }
+  &__item {
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    min-width: 23rem;
+    height: 100%;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    justify-content: end;
+  }
+  &__title {
+    font-family: "Raleway", sans-serif;
+    color: $primary;
+
+    margin-bottom: 0.3rem;
+  }
+  &__description {
+    color: $gray;
+
+    margin-bottom: 1.1rem;
+  }
+  &__link {
+    color: $primary;
+    font-size: 1.3rem;
+    a {
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

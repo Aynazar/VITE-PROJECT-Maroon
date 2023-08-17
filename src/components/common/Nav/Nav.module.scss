@@ -1,0 +1,33 @@
+@import "../../../assets/styles/vars";
+.Nav {
+  display: flex;
+  align-items: center;
+
+  gap: 3.5rem;
+
+  &__link {
+    color: $primary;
+    font-weight: 400;
+    font-size: 1.6rem;
+
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-20;
+    }
+  }
+  &__icon {
+    cursor: pointer;
+
+    path {
+      fill: $primary;
+      transition: all 0.2s linear;
+    }
+    &:hover {
+      path {
+        fill: $primary-20;
+      }
+    }
+  }
+}

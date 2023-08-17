@@ -1,0 +1,15 @@
+@import "../../assets/styles/vars";
+.IconButton {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: all 0.2s linear;
+}
+.IconButton[disabled] {
+  cursor: not-allowed;
+  svg {
+    path {
+      stroke: $primary-20;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "reset";
+@import "vars";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "M PLUS 1p", sans-serif;
+  color: $primary;
+}
+
+:root {
+  --primary: #122947;
+  --primary-20: #b3bac1;
+
+  --gray: #9a9da0;
+  --gray-5: #959595;
+
+  --secondary: #f4f1ed;
+  --secondary-10: #cdcdcd;
+
+  --white-darken-10: #d1d1d1;
+  --white-darken-5: #f8f8f6;
+  --white: #f9f7f6;
+}
+
+.container {
+  max-width: 136.6rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.page {
+  overflow: hidden;
+}
+*,
+*::after,
+*:before {
+  box-sizing: border-box;
+}

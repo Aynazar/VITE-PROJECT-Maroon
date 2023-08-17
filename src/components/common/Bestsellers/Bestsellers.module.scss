@@ -1,0 +1,21 @@
+.Bestsellers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  margin: 8rem 0;
+
+  &-left {
+    width: 25%;
+  }
+  &-right {
+    width: 75%;
+  }
+  &-title {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2.7rem;
+  }
+  &-text {
+    margin-bottom: 4rem;
+  }
+}
